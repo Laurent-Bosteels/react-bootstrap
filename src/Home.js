@@ -1,8 +1,33 @@
-import React from 'react'
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 export const Home = () => (
-        <div>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sit quibusdam dolor nisi eius accusantium ipsum optio, aliquid enim quia excepturi deleniti consectetur tempora. Non sunt quae quidem alias ipsa.</p>
-        </div>
-    )
+  <>
+    <Row>
+      <Carousel noGutters fade controls={false}>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://images.unsplash.com/photo-1627442000193-41657f8a2a72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1825&q=80"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://images.unsplash.com/photo-1627441990603-92ce0a9cfdf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3751&q=80"
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://images.unsplash.com/photo-1627442033472-a0eea0c96f98?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3001&q=80"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </Row>
+  </>
+);

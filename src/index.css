@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Carousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .carousel-item:nth-child(1) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
