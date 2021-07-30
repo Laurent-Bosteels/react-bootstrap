@@ -6,7 +6,7 @@ export const Services = () => (
    
    <Row className="services">
       <Col md={4}>
-        <p class="text-muted">Services</p>
+        <p className="text-muted">Services</p>
         Brand strategy <br/>
         Visual identity <br/>
         Digital design <br/>
@@ -16,14 +16,14 @@ export const Services = () => (
       </Col>
 
       <Col md={4}>
-      <p class="text-muted">Sectors</p>
+      <p className="text-muted">Sectors</p>
         Property <br/>
         Technology <br/>
         Professional services <br/>
       </Col>
 
       <Col md={4}>
-      <p class="text-muted">Selected Clients</p>
+      <p className="text-muted">Selected Clients</p>
         AppDirect <br/>
         Formedix <br/>
         Nest <br/>

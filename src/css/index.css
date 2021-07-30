@@ -1,15 +1,6 @@
-@font-face {
-  font-family: 'nimbus_sans_lregular';
-  src: url('NimbusSanL-Reg-webfont.eot');
-  src: url('NimbusSanL-Reg-webfont.eot?#iefix') format('embedded-opentype'),
-       url('NimbusSanL-Reg-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0;
-  font-family: 'Helvetica Neue LT W01_41488878', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +12,7 @@ body {
 }
 
 code {
-  font-family: 'Helvetica Neue LT W01_41488878', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 .custom-navbar {
@@ -40,8 +31,8 @@ code {
 }
 
 h1 {
-  font-size: 58px;
-letter-spacing: -0.023em;
+font-size: 58px;
+letter-spacing: -0.013em;
 font-weight: 300;
 line-height: 1.1;
 }
