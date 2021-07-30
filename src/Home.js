@@ -1,9 +1,12 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+
 
 export const Home = () => (
-  <>
+  <Container fluid={true}>
+      
     <Row>
       <Carousel noGutters fade controls={false}>
         <Carousel.Item>
@@ -29,5 +32,6 @@ export const Home = () => (
         </Carousel.Item>
       </Carousel>
     </Row>
-  </>
+
+  </Container>
 );
