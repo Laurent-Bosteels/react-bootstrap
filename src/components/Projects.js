@@ -3,7 +3,11 @@ import { useState } from "react";
 
 import { v4 as uuid_v4 } from "uuid";
 
+import LazyLoad from 'react-lazyload';
+
+import { Image } from "react-bootstrap";
 import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export const Projects = () => {
   const [projects, setProject] = useState([
@@ -36,9 +40,17 @@ export const Projects = () => {
   return (
     <Row>
       {projects.map((project) => (
-        <div>
-          <p>lorem ipsum</p>
-        </div>
+        <Col className="project-grid-item" md={6} key={project.id}>
+          <LazyLoad>
+           <Image className="w-100"
+              src={project.url}
+              alt="A lazy image"
+            />
+          </LazyLoad>
+          <p className="text-muted project-details">{project.details}</p>
+          <p className="project-title">{project.title}</p>
+
+        </Col>
       ))}
     </Row>
   );

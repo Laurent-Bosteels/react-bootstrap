@@ -5,7 +5,7 @@ import { Col } from "react-bootstrap";
 export const Services = () => (
    
    <Row className="services">
-      <Col md={4}>
+      <Col md={4} className="services-grid-item">
         <p className="text-muted">Services</p>
         Brand strategy <br/>
         Visual identity <br/>
@@ -15,14 +15,14 @@ export const Services = () => (
         Digital marketing <br/>
       </Col>
 
-      <Col md={4}>
+      <Col md={4} className="services-grid-item">
       <p className="text-muted">Sectors</p>
         Property <br/>
         Technology <br/>
         Professional services <br/>
       </Col>
 
-      <Col md={4}>
+      <Col md={4} className="services-grid-item">
       <p className="text-muted">Selected Clients</p>
         AppDirect <br/>
         Formedix <br/>

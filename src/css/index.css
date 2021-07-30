@@ -52,7 +52,26 @@ line-height: 1.1;
 .services {
   font-size: 24px;
   line-height: 28px;
-  padding: 140px 30px 140px 30px;
+  padding: 110px 0px 110px 0px;
+}
+
+.services-grid-item {
+  padding: 30px 30px 30px 30px;
+}
+
+.project-grid-item {
+  padding: 30px 30px 30px 30px;
+}
+
+.project-details {
+  margin: 11px 0px 0px 0px;
+  font-size: 19px;
+  line-height: 21px;
+}
+
+.project-title {
+  font-size: 30px;
+  line-height: 41px;
 }
 
 

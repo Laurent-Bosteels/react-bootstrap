@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { v4 as uuid_v4 } from "uuid";
 
+import { Image } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
 
@@ -29,7 +30,7 @@ export const CarouselComp = () => {
       <Carousel fade controls={false}>
         {images.map((image) => (
           <Carousel.Item key={image.id}>
-            <img
+            <Image
               className="d-block w-100"
               src={image.url}
               alt="slide"
